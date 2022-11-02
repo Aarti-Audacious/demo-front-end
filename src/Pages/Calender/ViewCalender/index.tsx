@@ -51,6 +51,8 @@ const ViewCalender: React.FC<permissionData> = (
     fromDate: leavePermission.listDateProp,
     toDate: leavePermission.PropToDate,
   });
+  console.log(filters);
+  
   useEffect(() => {
     setFilters({
       ...filters,
